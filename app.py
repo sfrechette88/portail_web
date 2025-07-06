@@ -13,7 +13,7 @@ app.register_blueprint(auth)
 
 @app.route('/')
 def home():
-    return render_template('login.html')  # redirige vers la page de connexion
+    return render_template('templates/login.html')  # redirige vers la page de connexion
 
 if __name__ == "__main__":
     app.run()
